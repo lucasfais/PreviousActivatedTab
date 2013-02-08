@@ -1,0 +1,5 @@
+[
+  {
+    "keys": ["ctrl+6"], "command": "previous_activated_tab"
+  }
+]
