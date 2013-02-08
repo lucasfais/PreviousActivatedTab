@@ -1,8 +1,12 @@
 # Previous Activated Tab for Sublime Text 2
 
-A plugin to switch between the two last focused tabs. Just like <C-^> for VIM.
+A plugin to switch between the two last focused tabs. Just like **C-^** for VIM.
 
-## How to install
+### Install using Package Control
+
+comming soon
+
+### Manual Install
 
 Clone this repo into
 
@@ -10,7 +14,6 @@ Clone this repo into
 * Windows: %APPDATA%/Sublime Text 2/Packages/
 * Linux: ~/.Sublime Text 2/Packages/
 
-
 ## How to use
 
-Default key map is <ctrl+6>
+Default key map is **ctrl+6**
