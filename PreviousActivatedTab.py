@@ -15,8 +15,10 @@ class PreviousActivatedTabCommand(sublime_plugin.TextCommand):
         return True
 
   def previousView(self):
-    if PreviousViews.previousViews:
-      return PreviousViews.previousViews.pop()
+    previousView = None
+    while not previousView and PreviousViews.previousViews:
+      previousView = PreviousViews.previousViews.pop()
+    return previousView
 
 class PreviousViews(sublime_plugin.EventListener):
   previousViews = []
